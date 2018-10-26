@@ -1,0 +1,22 @@
+{
+  "name": "HJTestKit",
+  "version": "0.1.0",
+  "summary": "A short description of HJTestKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hjsmile.0810@gmail.com/HJTestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hjsmile.0810@gmail.com": "hujie@021.com"
+  },
+  "source": {
+    "git": "https://github.com/hjsmile.0810@gmail.com/HJTestKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HJTestKit/Classes/**/*"
+}

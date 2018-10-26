@@ -1,0 +1,6 @@
+framework module HJTestKit {
+  umbrella header "HJTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
