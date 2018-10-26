@@ -10,7 +10,6 @@
 		20CB9A9AA274F76DF1A6FE06602A0158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		5A4CD5511B9E875F0CDF0857B6CAF202 /* Pods-HJTestKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA0FBE634001C532C6A2F1DB4827FFA /* Pods-HJTestKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		890ACD65E3203A3D88F9E2CFA8418EB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		A0192063C5FB21DC0B6E492D36B377AA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C566D634177A29887AD5A7BAF61CBD /* ReplaceMe.m */; };
 		B89A2D2BDDBF85189B904DFCE15A549A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		BEF5C5CA62E447620F03F3EE7DBF0641 /* HJTestKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 703E32C4072B695562EA56F1C56C5754 /* HJTestKit-dummy.m */; };
 		C16AF87EBD08AD0CEF428EE795DCD2A8 /* Pods-HJTestKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB0385DA126B008F42BB2268856D33F /* Pods-HJTestKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,14 +53,14 @@
 		718EDF1A123E0139E25F482C35EF6DC8 /* Pods-HJTestKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HJTestKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8282D518364E6742DE078E333C585C28 /* HJTestKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJTestKit-prefix.pch"; sourceTree = "<group>"; };
 		82F7EE6D4F123DAE3B8FEB5F775CF11E /* Pods-HJTestKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJTestKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		87C566D634177A29887AD5A7BAF61CBD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HJTestKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		9F22398C06C4040D80C25D7FA1D9AD91 /* Pods-HJTestKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJTestKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A63B78F1EB729407CB6CA2C2A5EC0117 /* Pods-HJTestKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJTestKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ACDC4766D0C75AC00116A0508DD7BF9B /* HJTestKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HJTestKit.modulemap; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9B20BEF2285246A8CD1343608DAC0A7 /* HJTestKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HJTestKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBD738D721832FCD006261B3 /* HJTestKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTestKit.m; sourceTree = "<group>"; };
 		BBD738D821832FCD006261B3 /* HJTestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTestKit.h; sourceTree = "<group>"; };
+		BBD738DA218333AB006261B3 /* HJTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTestModel.h; sourceTree = "<group>"; };
+		BBD738DB218333AB006261B3 /* HJTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTestModel.m; sourceTree = "<group>"; };
 		C5B54EB0E2065622409CA8314DEE6636 /* Pods-HJTestKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJTestKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6131982B7E65965EE3B44632CDB01C2 /* Pods-HJTestKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJTestKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C67BAFF4ED5766991317B36CA756013A /* HJTestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HJTestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,7 +173,6 @@
 		67090BAF31E73571531E5B739ABFABC5 /* HJTestKit */ = {
 			isa = PBXGroup;
 			children = (
-				87C566D634177A29887AD5A7BAF61CBD /* ReplaceMe.m */,
 				BBD738D621832FCD006261B3 /* HJTestKit */,
 				028626BC4F58AF4753FEE6E08022D59B /* Pod */,
 				AA90886625442348A3808316F855F326 /* Support Files */,
@@ -219,11 +217,20 @@
 		BBD738D621832FCD006261B3 /* HJTestKit */ = {
 			isa = PBXGroup;
 			children = (
-				BBD738D721832FCD006261B3 /* HJTestKit.m */,
+				BBD738D92183338A006261B3 /* HJTestModel */,
 				BBD738D821832FCD006261B3 /* HJTestKit.h */,
 			);
 			name = HJTestKit;
 			path = HJTestKit/Classes/HJTestKit;
+			sourceTree = "<group>";
+		};
+		BBD738D92183338A006261B3 /* HJTestModel */ = {
+			isa = PBXGroup;
+			children = (
+				BBD738DA218333AB006261B3 /* HJTestModel.h */,
+				BBD738DB218333AB006261B3 /* HJTestModel.m */,
+			);
+			path = HJTestModel;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -386,7 +393,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF5C5CA62E447620F03F3EE7DBF0641 /* HJTestKit-dummy.m in Sources */,
-				A0192063C5FB21DC0B6E492D36B377AA /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

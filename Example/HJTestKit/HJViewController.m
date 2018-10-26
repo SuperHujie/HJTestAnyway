@@ -7,7 +7,6 @@
 //
 
 #import "HJViewController.h"
-
 @interface HJViewController ()
 
 @end
